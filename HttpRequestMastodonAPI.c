@@ -7,7 +7,7 @@
 int main(void)
 {
   CURL *curl;
-  CURLcode res;
+  CURLcode response;
   /* In windows, this will init the winsock stuff */ 
   curl_global_init(CURL_GLOBAL_ALL);
  
